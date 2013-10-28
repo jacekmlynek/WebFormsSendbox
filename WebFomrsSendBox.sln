@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebFomrsSendBox", "WebFomrsSendBox\WebFomrsSendBox.csproj", "{B0228FBF-5B27-4DE7-A960-922730AFE364}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebFormsSendBoxIntegrationTests", "WebFormsSendBoxIntegrationTests\WebFormsSendBoxIntegrationTests.csproj", "{C70575E3-D963-4D2E-A2D9-F766BA4B88DC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{51DE7CE8-29E3-464C-A99D-913BFFC42494}"
+	ProjectSection(SolutionItems) = preProject
+		LocalTestRun.testrunconfig = LocalTestRun.testrunconfig
+		WebFomrsSendBox.vsmdi = WebFomrsSendBox.vsmdi
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NunitTests", "NunitTests\NunitTests.csproj", "{1EC55629-C57F-4421-8DA4-3301CF305D09}"
+EndProject
+Global
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = WebFomrsSendBox.vsmdi
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B0228FBF-5B27-4DE7-A960-922730AFE364}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B0228FBF-5B27-4DE7-A960-922730AFE364}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B0228FBF-5B27-4DE7-A960-922730AFE364}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B0228FBF-5B27-4DE7-A960-922730AFE364}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C70575E3-D963-4D2E-A2D9-F766BA4B88DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C70575E3-D963-4D2E-A2D9-F766BA4B88DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C70575E3-D963-4D2E-A2D9-F766BA4B88DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C70575E3-D963-4D2E-A2D9-F766BA4B88DC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1EC55629-C57F-4421-8DA4-3301CF305D09}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1EC55629-C57F-4421-8DA4-3301CF305D09}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1EC55629-C57F-4421-8DA4-3301CF305D09}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1EC55629-C57F-4421-8DA4-3301CF305D09}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
